@@ -1,0 +1,70 @@
+.navbar{
+    background-color: black;/*overflow from parent,due to float*/
+    border-radius: 12px;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%
+   
+    
+
+
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none;/*background-color is gone due to float,which overflow it. */
+    margin: 16px 20px;
+}
+
+.navbar li a{
+    padding: 3pxpx 3px;
+    text-decoration: none;
+    color: white;
+
+}
+.button{
+  
+  color: white; 
+  padding: 12px 75px;
+}
+.info button{
+    border: 2px solid black;
+    padding: 4px;
+    /* border-radius: 10px; */
+    text-decoration: none;
+    background-color: black
+}
+.info button a{
+    text-decoration: none;
+    font-size:18px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.navbar h1{
+    color: white
+}
+
+
+  h1{
+    margin: 80px;
+    padding: 20px
+}
+p{
+    margin:60px;
+    padding:10px;
+}
+.navbar  h1{
+    margin: 1px;
+}
+
+img {
+float: right;
+border: 1px  black;
+margin: 0px 0px 15px 20px;
+}
+
